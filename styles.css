@@ -1,17 +1,41 @@
-* {
-  margin:0px;
-  padding:0px;
-}
-
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
-
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+.exercise-instructions{
+  border: 2px solid lightgrey;
+  padding: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .exercise-instructions h1{
+  margin-left: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-size: 25px;
+  }
+  .exercise-instructions h1::after{
+  content:"";
+  display:block;
+  border-top: 2px solid lightgrey;
+  padding: 2px;
+  margin-left: 10px;
+  margin-top: 10px;
+  }
+  .exercise-instructions ol ul{
+  padding: 10px;
+  }
+  .repo, .new-link{
+    color: green;
+  }
+  .repo:hover, .new-link:hover{
+    color: red;
+  }
+  .index-html{
+  background-color:#F0F0F0;
+  padding: 1px;
+  border-radius: 5px;
+  }
+  .style-css{
+  background-color: 	#F0F0F0;
+  padding: 1px;
+  border-radius: 5px;
+  } 
+  

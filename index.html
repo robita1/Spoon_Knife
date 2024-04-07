@@ -1,3 +1,4 @@
+HTML AND CSS FOR exercise-instructions
 <!DOCTYPE html>
 
 <html>
@@ -9,12 +10,34 @@
 
 <body>
 
-<img src="forkit.gif" id="octocat" alt="" />
+<img src="octocat.png" id="octocat" alt="" />
 
 <!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
-</p>
-
-</body>
+<div class="exercise-instructions" id=""> 
+  <h1>How To Use These Exercises</h1>
+<ol>    <!-- this ordered list contains 6 lists within it it contains unordered list for each list except for list number 2 which doesn't contain unordered list.-->
+    <li>Fork and clone this repository. To learn how to fork a repository, see the GitHub documentation on how 
+      to <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo"> <span class = "repo"> fork a repo. </span></a> </li>
+        <ul>
+      <li>Copies of repositories on your machine are called clones. If you need help cloning to your local environment, you can learn how from the GitHub documentation on <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository" class="new-link"> cloning a repository.</a></li>
+        </ul>
+    <li>Go to an exercise directory and open the HTML file in a web browser. You can open the file directly or use something like VSCode's Live Server extension.</li>
+    <li>For each exercise, read the README thoroughly before starting any work.</li>
+      <ul>
+      <li>Each README has a "Self Check" list. Use this to ensure you haven't missed any important details in your implementation.</li>
+      </ul>
+    <li>Make your edits in the <span class="index-html">index.html</span> and/or the <span class="style-css">style.css</span> files in order to make the output 
+      in your browser look like the Desired Outcome image(s).</li>
+      <ul>
+        <li>Depending on the instructions of the exercise, you may only need to make edits in one of these files.</li>
+      </ul>
+    <li>Once you successfully finish an exercise, check TOP's solution to compare it with yours.</li>
+      <ul>
+        <li>You should not be checking the solution for an exercise until you finish it!</li>
+        <li>If your solution differs wildly from TOP's solution (and still passes the exercise's requirements), 
+        that's completely fine. Do feel free to ask about it in our Discord if there are parts you do not understand.</li>
+      </ul>
+    <li>Do not submit your solutions to this repo, as any PRs that do so will be closed without merging.</li>
+</ol>
+</div>
 </html>
